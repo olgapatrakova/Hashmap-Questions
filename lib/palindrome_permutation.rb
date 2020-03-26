@@ -18,5 +18,7 @@ def palindrome_permutation?(string)
     end
   end
   
-  return false if odd > 1
+  return odd > 1 ? false : true
 end
+
+p palindrome_permutation?("racecar")
