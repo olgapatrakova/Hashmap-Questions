@@ -21,7 +21,7 @@ def permutations?(string1, string2)
       return false
     end
   end
-
-  # Return true if values of the hash are all equal to 0
-  return true if hash.values == Array.new(hash.size, 0)
+  
+  # Return true if all values of the hash are equal to 0
+  return true if hash.values.all?(0)
 end
