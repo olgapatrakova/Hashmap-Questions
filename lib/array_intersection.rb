@@ -1,3 +1,8 @@
+# Design and implement a method that takes two integer arrays with unique values and 
+# returns their intersection in a new array.
+# Time complexity: O(n + m)
+# Space complexity: O(n)
+
 def intersection(list1, list2)
   return nil if list1 == nil || list2 == nil
 

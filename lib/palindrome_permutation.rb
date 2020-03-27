@@ -1,3 +1,7 @@
+# Write a method which takes a string as an argument and 
+# returns true if the letters could be re-arranged into a palindrome.
+# Time complexity: O(n)
+# Space complexity: O(n)
 
 def palindrome_permutation?(string)
   return false if string.match(/[^a-zA-Z]/)
